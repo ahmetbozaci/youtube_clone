@@ -1,0 +1,24 @@
+/* Navigation bar */
+.nav_img {
+  width: 25px;
+}
+#youtube_logo {
+  width: 50px;
+}
+#search_box {
+  width: 500px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+#account > a {
+  margin-right: 10px;
+}
+#google_account {
+  width: 30px;
+}
+#magnify_glass {
+  position: relative;
+  top: 6px;
+}
