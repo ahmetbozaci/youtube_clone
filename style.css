@@ -1,44 +1,75 @@
 /* Navigation bar */
+
 nav {
   display: flex;
   justify-content: space-between;
   margin: 10px auto;
 }
+
 .nav-icon {
   margin: 0 9px 15px 9px;
 }
+
 input {
   width: 500px;
   height: 25px;
 }
 
-/* Flexbox container */
+/* video container */
+
 .container {
   display: flex;
 }
+
 .video-stats {
   display: flex;
   justify-content: space-between;
-  margin: 5px 0;
+  margin: 5px 0 15px 15px;
 }
+
 .title-icon {
   margin: 5px;
 }
+
 .video-about {
   display: flex;
   justify-content: space-between;
+  
 }
-figcaption {
+
+.youtuber-name {
   display: inline;
   position: relative;
   bottom: 40px;
 }
+
 .subscribe {
   align-self: center;
 }
+
 .subscribe-button {
   background-color: #f00;
   color: #fff;
   padding: 5px 15px;
   border: 1px solid #fff;
+}
+.video-title{
+  margin-left: 15px;
+}
+hr{
+  background-color: #eeeeee;
+  height: 1.5px;
+  border: none;
+}
+iframe{
+  width: 1050px;
+  height: 500px;
+  margin-left: 15px;
+}
+figure{
+  margin-left: 10px;
+}
+.comment-name{
+  display: inline;
+  margin-left:10px;
 }
