@@ -1,19 +1,44 @@
-nav{
+/* Navigation bar */
+nav {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
-   
+  margin: 10px auto;
 }
-#menu i{
-  margin-right: 10px;
-  margin-left: 5px;
+.nav-icon {
+  margin: 0 9px 15px 9px;
 }
-#account i{
-  margin-right:10px;
-}
-input{
+input {
   width: 500px;
   height: 25px;
-
 }
 
+/* Flexbox container */
+.container {
+  display: flex;
+}
+.video-stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.title-icon {
+  margin: 5px;
+}
+.video-about {
+  display: flex;
+  justify-content: space-between;
+}
+figcaption {
+  display: inline;
+  position: relative;
+  bottom: 40px;
+}
+.subscribe {
+  align-self: center;
+}
+.subscribe-button {
+  background-color: #f00;
+  color: #fff;
+  padding: 5px 15px;
+  border: 1px solid #fff;
+}
