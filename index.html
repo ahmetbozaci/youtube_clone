@@ -1,52 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/89c0957ca7.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Youtube Clone</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://kit.fontawesome.com/89c0957ca7.js" crossorigin="anonymous"></script>
-  <title>Youtube Clone</title>
-</head>
+  <body>
+    <nav>
+      <div class="nav-group" id="menu">
+        <i class="nav-icon fas fa-bars"></i>
+        <i class="nav-icon fab fa-youtube"></i>
+      </div>
+      <div class="nav-group" id="search">
+        <input type="text" placeholder="Search" />
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="nav-group" id="account">
+        <i class="nav-icon fas fa-video"></i>
+        <i class="nav-icon fas fa-th"></i>
+        <i class="nav-icon fas fa-bell"></i>
+        <i class="nav-icon fas fa-user-circle"></i>
+      </div>
+    </nav>
+    <div class="container">
+      <main>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/s6_azdBnAlU"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
 
-<body>
-  <nav>
-    <div class="nav-group" id="menu">
-      <i class="fas fa-bars"></i>
-      <i class="fab fa-youtube"></i>
+        <p>Dope Tech: Boston Dynamics Robot Dog!</p>
+        <div class="video-stats">
+          <div class="video-stat">838,026 views•Aug 10, 2020</div>
+          <div class="video-stat">
+            <i class="fas fa-thumbs-up"></i> 115K
+            <i class="title-icon fas fa-thumbs-down"></i> 1.1K
+            <i class="title-icon fas fa-share"></i>
+            <i class="title-icon fas fa-save"></i>
+          </div>
+        </div>
+
+        <div class="video-about">
+          <figure class="avatar">
+            <img
+              src="icon/video_avatar_picture.JPG"
+              alt="Youtuber's profile picture"
+            />
+            <figcaption><strong>MKBHD</strong></figcaption>
+          </figure>
+          <div class="subscribe">
+            <button class="subscribe-button">SUBSCRIBE</button>
+            <i class="far fa-bell"></i>
+          </div>
+        </div>
+      </main>
     </div>
-    <div class="nav-group" id="search">
-      <input type="text" placeholder="Search">
-      <i class="fas fa-search"></i>
-    </div>
-    <div class="nav-group" id="account">
-      <i class="fas fa-video"></i>
-      <i class="fas fa-th"></i>
-      <i class="fas fa-bell"></i>
-      <i class="fas fa-user-circle"></i>
-    </div>
-  </nav>
-  <section>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/s6_azdBnAlU" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
-    <div class="video-title">
-      <p>Dope Tech: Boston Dynamics Robot Dog!</p>
-      <p>838,026 views•Aug 10, 2020</p>
-      <i class="fas fa-thumbs-up"></i>
-      <i class="fas fa-thumbs-down"></i>
-    </div>
-
-
-    <div class="video-about">
-      <img src="icon/video_avatar_picture.JPG" alt="youtuber profile picture">
-
-    </div>
-  </section>
-
-
-
-
-</body>
-
+  </body>
 </html>
