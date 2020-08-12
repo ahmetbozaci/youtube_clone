@@ -1,3 +1,9 @@
+/* General */
+
+figure {
+  margin-left: 10px;
+}
+
 /* Navigation bar */
 
 nav {
@@ -15,10 +21,18 @@ input {
   height: 25px;
 }
 
-/* video container */
+/* Container */
 
 .container {
   display: flex;
+}
+
+/* Main youtube iframe */
+
+iframe {
+  width: 1050px;
+  height: 500px;
+  margin-left: 15px;
 }
 
 .video-stats {
@@ -34,7 +48,6 @@ input {
 .video-about {
   display: flex;
   justify-content: space-between;
-  
 }
 
 .youtuber-name {
@@ -53,23 +66,29 @@ input {
   padding: 5px 15px;
   border: 1px solid #fff;
 }
-.video-title{
+.video-title {
   margin-left: 15px;
 }
-hr{
+hr {
   background-color: #eeeeee;
   height: 1.5px;
   border: none;
 }
-iframe{
-  width: 1050px;
-  height: 500px;
-  margin-left: 15px;
-}
-figure{
+
+/* Comment section */
+
+.comment-name {
   margin-left: 10px;
 }
-.comment-name{
-  display: inline;
-  margin-left:10px;
+
+.comment-text {
+  margin-left: 9px;
+}
+
+.comment-buttons {
+  margin-left: 9px;
+}
+.view-replies {
+  color: #008fff;
+  font-weight: bold;
 }
