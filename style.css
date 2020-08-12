@@ -1,0 +1,19 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+   
+}
+#menu i{
+  margin-right: 10px;
+  margin-left: 5px;
+}
+#account i{
+  margin-right:10px;
+}
+input{
+  width: 500px;
+  height: 25px;
+
+}
+
