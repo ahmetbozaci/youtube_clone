@@ -66,9 +66,11 @@ iframe {
   padding: 5px 15px;
   border: 1px solid #fff;
 }
+
 .video-title {
   margin-left: 15px;
 }
+
 hr {
   background-color: #eeeeee;
   height: 1.5px;
@@ -88,7 +90,23 @@ hr {
 .comment-buttons {
   margin-left: 9px;
 }
+
 .view-replies {
   color: #008fff;
   font-weight: bold;
+}
+
+/*Aside bar*/
+
+.recommend-video {
+  display: flex;
+  margin: 0 0 30px 80px;
+}
+
+.video-info-recommend {
+  margin-bottom: 0px;
+}
+
+.creater-name {
+  margin-bottom: 0;
 }
