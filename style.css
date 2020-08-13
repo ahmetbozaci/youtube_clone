@@ -22,11 +22,20 @@ nav {
   color: #f00;
 }
 
+.search {
+  display: flex;
+}
 input {
   width: 500px;
   height: 75%;
 }
 
+.search-button {
+  border: 1px solid #aaa;
+  background-color: #ccc;
+  border-left-width: 0;
+  border-radius: 5px;
+}
 /* Flexbox container */
 
 .container {
