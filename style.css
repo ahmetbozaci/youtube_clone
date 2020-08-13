@@ -9,29 +9,39 @@ figure {
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 10px auto;
+  margin: 15px 0;
 }
 
 .nav-icon {
+  position: relative;
+  top: 5px;
   margin: 0 9px 15px 9px;
+}
+
+.youtube-icon {
+  color: #f00;
 }
 
 input {
   width: 500px;
-  height: 25px;
+  height: 75%;
 }
 
 /* Container */
 
 .container {
   display: flex;
+  justify-content: space-between;
 }
 
-/* Main youtube iframe */
+/* Youtube video */
+main {
+  width: 65%;
+}
 
 iframe {
-  width: 1050px;
-  height: 500px;
+  width: 100%;
+  height: 400px;
   margin-left: 15px;
 }
 
@@ -78,6 +88,9 @@ hr {
 }
 
 /* Comment section */
+.comment {
+  margin-left: 5px;
+}
 
 .comment-name {
   margin-left: 10px;
@@ -97,16 +110,18 @@ hr {
 }
 
 /*Aside bar*/
+aside {
+  width: 32%;
+}
 
 .recommend-video {
   display: flex;
-  margin: 0 0 30px 80px;
+  margin: 0 10px 20px 0;
 }
 
 .video-info-recommend {
-  margin-bottom: 0px;
+  margin: 5px 0 0 5px;
 }
-
-.creater-name {
-  margin-bottom: 0;
+.creator-name {
+  line-height: 80%;
 }
