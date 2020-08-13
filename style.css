@@ -1,7 +1,7 @@
 /* General */
 
-figure {
-  margin-left: 10px;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 /* Navigation bar */
@@ -27,14 +27,14 @@ input {
   height: 75%;
 }
 
-/* Container */
+/* Flexbox container */
 
 .container {
   display: flex;
   justify-content: space-between;
 }
 
-/* Youtube video */
+/* Main video */
 main {
   width: 65%;
 }
@@ -44,6 +44,7 @@ iframe {
   height: 400px;
   margin-left: 15px;
 }
+/* Information about video */
 
 .video-stats {
   display: flex;
@@ -58,6 +59,10 @@ iframe {
 .video-about {
   display: flex;
   justify-content: space-between;
+}
+
+figure {
+  margin-left: 10px;
 }
 
 .youtuber-name {
@@ -79,6 +84,8 @@ iframe {
 
 .video-title {
   margin-left: 15px;
+  font-size: larger;
+  font-weight: 500;
 }
 
 hr {
@@ -94,6 +101,7 @@ hr {
 
 .comment-name {
   margin-left: 10px;
+  font-weight: 500;
 }
 
 .comment-text {
@@ -106,7 +114,7 @@ hr {
 
 .view-replies {
   color: #008fff;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /*Aside bar*/
@@ -117,6 +125,10 @@ aside {
 .recommend-video {
   display: flex;
   margin: 0 10px 20px 0;
+}
+
+.recommend-video-title {
+  font-weight: 500;
 }
 
 .video-info-recommend {
