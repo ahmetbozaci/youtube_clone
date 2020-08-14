@@ -1,14 +1,11 @@
-
 # Youtube Clone
 
 > It is first project of Microverse by Ahmet and Meron
-
 
 ## Built With
 
 - HTML,
 - CSS,
-
 
 ## Authors
 
@@ -33,10 +30,3 @@ Feel free to check the [https://github.com/ahmetbozaci/youtube_clone/issues](iss
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
