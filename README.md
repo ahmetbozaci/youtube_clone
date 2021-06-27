@@ -2,6 +2,7 @@
 
 > It is first project of Microverse by Ahmet and Meron
 
+![screenshot](./screenshot.png)
 ## Live Demo
 https://ahmetbozaci.github.io/youtube_clone/
 
